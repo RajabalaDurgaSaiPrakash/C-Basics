@@ -1,12 +1,11 @@
-//c program that converts minutes into hours and minutes
+//c program that converts hours and minures into minutes
 #include<stdio.h>
 void main()
 {
 	int a;
 	int b;
-	a = 550;
-    b = a/60;
-    int c = a%60;
-    printf("%d minutes is equals to %d hour(s) and %d minute(s)",a,b,c);
-    
+	a = 9;
+    b = 10;
+    int c = a*60+b;
+    printf("%d hours and %d minutes is %d minutes",a,b,c);
 }
